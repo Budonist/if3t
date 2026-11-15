@@ -321,3 +321,8 @@ Die ursprüngliche Vorgabe „keine Bilder“ wird auf Betreiberwunsch ersetzt: 
 ## 16. Ergänzte IONOS-Angaben
 
 Laut Betreiber: IONOS Webhosting Pro, Vertragspartner IONOS SE, Elgendorfer Str. 57, 56410 Montabaur. AVV-Abschluss am 27. November 2025. Die Vertragsunterlagen wurden hier nicht eingesehen. Paket und Anbieter sind damit geklärt; Serverlogs, Speicherfristen, Verarbeitungsorte, Hostingstatistiken und E-Mail-Verarbeitung bleiben offen. Diese offenen Angaben nicht durch angenommene Standardwerte ersetzen. Der Betreiber möchte sie nach dem Livegang nachreichen; vollständige Informationen zur tatsächlichen Verarbeitung sollten bereits zum Start vorliegen. Kein Livegang ist hierdurch erfolgt.
+
+
+## 17. Beschlossene Datenschutzregeln
+
+E-Mail-Hosting bei IONOS bestätigt. Abgeschlossene gewöhnliche Kontaktanfragen werden grundsätzlich spätestens drei Monate nach Abschluss gelöscht; begründete Ausnahmen und gesetzliche Pflichten bleiben vorbehalten. Der Betreiber muss dies organisatorisch umsetzen. Hosting- und Kontaktzwecke einschließlich der vorgeschlagenen Rechtsgrundlagen sind im Entwurf konkretisiert. Optionale Besucherstatistiken sollen deaktiviert sein; Kontoeinstellung noch prüfen. Die Drei-Monats-Regel gilt nicht als behauptete Frist für Serverlogs oder technische Provider-Backups. Details und nicht versendete Supportanfrage stehen in `RECHTLICHER-STATUS.md`.

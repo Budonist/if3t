@@ -15,7 +15,7 @@ Aktualisiert: 15. November 2026. Keine rechtliche Freigabe.
 
 ## Noch zu klären
 
-- AVV-Leistungsumfang, tatsächliche Serverlogs einschließlich Anonymisierung und Aufbewahrung, Verarbeitungsorte/Unterauftragnehmer, gegebenenfalls Drittlandtransfers, aktivierte Hostingstatistiken sowie E-Mail-Hosting und E-Mail-Aufbewahrung. Keine Fristen erfinden.
+- AVV-Leistungsumfang, tatsächliche Serverlogs einschließlich Anonymisierung und Aufbewahrung, Verarbeitungsorte/Unterauftragnehmer, gegebenenfalls Drittlandtransfers, aktivierte Hostingstatistiken sowie technische E-Mail- und Backup-Löschzyklen. Keine Fristen erfinden.
 - Öffentliche endgültige App-Namen, Build-/Commit-Abgleich und konkrete TestFlight-Konfiguration mit Entwicklerzugriff auf Tester-, Feedback- und Diagnosedaten.
 - Rechtsgrundlagen, Empfängerrollen, gegebenenfalls Drittlandtransfers und Löschkriterien.
 - Ob zusätzliche Anbieterangaben für die konkrete Tätigkeit erforderlich sind. Privater Betrieb bedeutet nicht automatisch, dass DDG oder DSGVO unanwendbar sind.
@@ -37,3 +37,22 @@ Auf Wunsch stärker visuelles Layout mit Original-App-Icons aus den beiden Nutze
 - Dateien wurden unverändert kopiert und lokal eingebunden.
 
 Die direkten Abrufe der Gesetzes- und IONOS-Seiten waren in dieser Sitzung durch die Netzwerkregeln blockiert. Eine aktuelle Vertrags- oder Quellenprüfung wird dadurch nicht ersetzt.
+
+
+## Beschlossene Website- und E-Mail-Regeln
+
+Der Betreiber hat den vorgeschlagenen Regelungen zugestimmt:
+
+- E-Mails werden ebenfalls über IONOS bereitgestellt.
+- Hosting zur Bereitstellung, Sicherheit und Fehleranalyse auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO beschreiben.
+- Kontaktbearbeitung grundsätzlich nach Art. 6 Abs. 1 lit. f DSGVO; bei vertragsbezogenen Anfragen gegebenenfalls Art. 6 Abs. 1 lit. b DSGVO.
+- Gewöhnliche abgeschlossene Kontaktanfragen spätestens drei Monate nach abschließender Bearbeitung löschen, soweit keine gesetzlichen Aufbewahrungspflichten oder berechtigten Gründe entgegenstehen. Dies ist eine eigene organisatorische Regel, keine gesetzliche Standardfrist und keine bestätigte IONOS-Automatik.
+- Optionale IONOS-WebAnalytics/Besucherstatistiken nicht nutzen. Tatsächliche Deaktivierung im Kundenkonto ist noch nicht kontrolliert.
+
+### Praktische Umsetzung durch den Betreiber
+
+Mindestens monatlich abgeschlossene Anfragen prüfen und spätestens bei Ablauf von drei Monaten löschen. Posteingang, Gesendet, eigene Archivordner, lokale Kopien und Papierkorb berücksichtigen. Falls eine längere Aufbewahrung erforderlich ist, Grund und spätere erneute Prüfung festhalten. Technische Provider-Backups separat behandeln; deren Löschzyklen sind noch unbekannt. Diese Website-Änderung löscht keine E-Mails und ändert keine IONOS-Einstellungen.
+
+### Anfrage an IONOS (noch nicht versendet)
+
+> Welche Serverlog-Daten werden bei meinem Webhosting-Pro-Vertrag gespeichert, wann werden IP-Adressen anonymisiert und Logs gelöscht? Wo werden Website- und E-Mail-Daten einschließlich Backups verarbeitet, welche Löschzyklen gelten, und sind Besucherstatistiken aktiviert? Bitte nennen Sie die dazugehörigen produktbezogenen Datenschutzinformationen und Unterauftragnehmer.
