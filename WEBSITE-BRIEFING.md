@@ -316,3 +316,8 @@ Die Website kann technisch entwickelt werden, bevor alle offenen Angaben vorlieg
 Privater Betrieb und die oben angegebene Anschrift sowie Kontaktadresse sind bestätigt. Beide Apps derzeit in TestFlight; App Store geplant. IONOS-Vertrags- und Aufbewahrungsangaben bleiben offen. Für die Hymnen fehlen Herkunftsnachweise; die Behauptung gemeinfreier Aufnahmen ist nicht belegt. Siehe `RECHTLICHER-STATUS.md`.
 
 Die ursprüngliche Vorgabe „keine Bilder“ wird auf Betreiberwunsch ersetzt: visuellere Projektkarten und App-Seiten mit lokal eingebundenen Original-App-Icons. Echte Screenshots können später ergänzt werden. Technische Diagramme nicht als App-Oberflächen darstellen. Datenschutztexte bleiben bis zur Klärung der aufgelisteten Tatsachen Arbeitsentwürfe.
+
+
+## 16. Ergänzte IONOS-Angaben
+
+Laut Betreiber: IONOS Webhosting Pro, Vertragspartner IONOS SE, Elgendorfer Str. 57, 56410 Montabaur. AVV-Abschluss am 27. November 2025. Die Vertragsunterlagen wurden hier nicht eingesehen. Paket und Anbieter sind damit geklärt; Serverlogs, Speicherfristen, Verarbeitungsorte, Hostingstatistiken und E-Mail-Verarbeitung bleiben offen. Diese offenen Angaben nicht durch angenommene Standardwerte ersetzen. Der Betreiber möchte sie nach dem Livegang nachreichen; vollständige Informationen zur tatsächlichen Verarbeitung sollten bereits zum Start vorliegen. Kein Livegang ist hierdurch erfolgt.
