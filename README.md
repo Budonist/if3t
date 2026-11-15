@@ -4,7 +4,7 @@ Statische persönliche Website und App-Seiten. Kein Build und keine Abhängigkei
 
 ## Status
 
-Erste lokale Version. **Noch nicht für den öffentlichen Upload freigegeben:** Impressum und Datenschutztexte sind sichtbare Arbeitsentwürfe. Offene Fakten stehen im [Briefing](WEBSITE-BRIEFING.md) und im [rechtlichen Status](RECHTLICHER-STATUS.md). Keine App-Store- oder TestFlight-Verfügbarkeit zugesichert.
+Erste lokale Version. **Noch nicht für den öffentlichen Upload freigegeben:** Impressum und Datenschutztexte sind sichtbare Arbeitsentwürfe. Offene Fakten stehen im [Briefing](WEBSITE-BRIEFING.md) und im [rechtlichen Status](RECHTLICHER-STATUS.md). Beide Apps werden laut Betreiber über TestFlight verteilt; ein App-Store-Release ist geplant.
 
 ## Lokale Vorschau
 
@@ -27,12 +27,28 @@ Inhalte liegen unter `site/main`, `site/sonnenstand-app` und `site/sektoren-app`
 ## Upload zu IONOS (gesonderter Freigabeschritt)
 
 1. Rechtliche Texte und Betreiberangaben abschließen; Entwurfshinweise erst danach entfernen. Öffentliche App-Namen, Release-Versionen, TestFlight, Geodaten- und Audio-Lizenzen bestätigen.
-2. Bestehenden Webbestand sichern. Dokumentenverzeichnisse und Zertifikate für `if3t.de`, `www.if3t.de` und beide App-Subdomains im Hosting-Panel prüfen. Separate, möglichst nebeneinanderliegende Dokumentenverzeichnisse verwenden.
+2. Bestehenden Webbestand sichern. Dokumentenverzeichnisse und Zertifikate für `if3t.de`, `www.if3t.de` und beide App-Subdomains im Hosting-Panel prüfen. Die unten dokumentierten verschachtelten Dokumentenverzeichnisse verwenden. Domainzuordnungen im Panel kontrollieren; die Dateipfade allein belegen diese noch nicht.
 3. SFTP-Verbindung mit den im Panel bereitgestellten Daten herstellen; Hostschlüssel überprüfen. Keine Zugangsdaten in Git ablegen.
 4. Nur den **Inhalt** des jeweiligen `site/`-Unterverzeichnisses in das zugehörige Dokumentenverzeichnis übertragen, einschließlich `.htaccess`. Nicht das gesamte Repository hochladen. Bei Änderungen alle betroffenen CSS-Kopien hochladen.
-5. Die konkreten Zielpfade nach Prüfung hier dokumentieren. Sie sind derzeit noch unbekannt; `/` ist kein bestätigtes Uploadziel.
+5. Die folgenden Zielpfade verwenden. Je nach SFTP-Benutzer kann dessen sichtbares Startverzeichnis bereits `/if3t` sein. Nicht versehentlich einen zusätzlichen Ordner `if3t` darin erzeugen und keine Spiegelung mit Löschen unbekannter Serverdateien verwenden.
 6. Alle sieben HTTPS-Seiten, HTTP-Weiterleitungen, Apex-Weiterleitung, Canonicals, Header und echte 404-Antworten prüfen. App-Subdomains dürfen nicht auf www umgeleitet werden. Bei HTTP-500 `.htaccess` und Hostingmodule untersuchen; Sicherheitsregeln nicht blind entfernen.
 7. Bei Fehlern den gesicherten Webbestand wiederherstellen. Erst nach erfolgreicher Liveprüfung die App-Datenschutzadressen in App Store Connect eintragen.
+
+### Vom Betreiber gemeldete Verzeichnisse
+
+Absoluter Hauptpfad: `/kunden/homepages/26/d125682115/htdocs/if3t`.
+
+| Inhalt aus dem Repository | Relativer Webspace-Pfad | Vorgesehene Domain |
+| --- | --- | --- |
+| `site/main/` | `/if3t` | `if3t.de` und `www.if3t.de` |
+| `site/sonnenstand-app/` | `/if3t/sonnenstand-app` | `sonnenstand-app.if3t.de` |
+| `site/sektoren-app/` | `/if3t/sektoren-app` | `sektoren-app.if3t.de` |
+
+Die Subdomains wurden laut Betreiber angelegt. Ihre Zuordnung zu diesen Dokumentenverzeichnissen und SSL-Abdeckung bleiben live zu prüfen. Die Haupt-`.htaccess` beschränkt Hauptdomain-Weiterleitungen auf die Hauptdomain-Hosts. Direkte Aufrufe der App-Unterpfade über die Hauptdomain werden auf die App-Subdomains umgeleitet. Die App-Verzeichnisse enthalten jeweils eine eigene `.htaccess`.
+
+Bei einem vorbereiteten Upload-ZIP entspricht dessen Ordner `if3t/` dem vorhandenen Serververzeichnis `/if3t`: **Ordnerinhalt zusammenführen**, nicht `/if3t/if3t` erzeugen. Bei separatem Upload der Hauptseite die bereits vorhandenen App-Unterordner nicht löschen.
+
+Der aktuelle Inhalt ist eine Arbeitsversion mit sichtbaren rechtlichen Entwurfshinweisen. Ein Upload auf einen öffentlich erreichbaren Webspace macht diese Dateien öffentlich. Für einen geschützten Test muss ein Zugriffsschutz auf allen drei Domains tatsächlich eingerichtet und geprüft werden; das Paket selbst enthält keinen Passwortschutz.
 
 Kein automatischer Upload oder Deployment-Workflow ist eingerichtet. GitHub sichert den Quellcode; ein Push veröffentlicht die Website nicht bei IONOS.
 

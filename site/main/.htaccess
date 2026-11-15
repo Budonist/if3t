@@ -2,8 +2,15 @@
 Options -Indexes
 DirectoryIndex index.html
 RewriteEngine On
+# Die App-Verzeichnisse liegen innerhalb dieses Dokumentenverzeichnisses.
+# Direkte Hauptdomain-Unterpfade auf die passenden App-Hosts umleiten.
+RewriteCond %{HTTP_HOST} ^(?:www\.)?if3t\.de$ [NC]
+RewriteRule ^sonnenstand-app(?:/(.*))?$ https://sonnenstand-app.if3t.de/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?if3t\.de$ [NC]
+RewriteRule ^sektoren-app(?:/(.*))?$ https://sektoren-app.if3t.de/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^if3t\.de$ [NC]
 RewriteRule ^ https://www.if3t.de%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.if3t\.de$ [NC]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://www.if3t.de%{REQUEST_URI} [R=301,L]
 

@@ -326,3 +326,8 @@ Laut Betreiber: IONOS Webhosting Pro, Vertragspartner IONOS SE, Elgendorfer Str.
 ## 17. Beschlossene Datenschutzregeln
 
 E-Mail-Hosting bei IONOS bestätigt. Abgeschlossene gewöhnliche Kontaktanfragen werden grundsätzlich spätestens drei Monate nach Abschluss gelöscht; begründete Ausnahmen und gesetzliche Pflichten bleiben vorbehalten. Der Betreiber muss dies organisatorisch umsetzen. Hosting- und Kontaktzwecke einschließlich der vorgeschlagenen Rechtsgrundlagen sind im Entwurf konkretisiert. Optionale Besucherstatistiken sollen deaktiviert sein; Kontoeinstellung noch prüfen. Die Drei-Monats-Regel gilt nicht als behauptete Frist für Serverlogs oder technische Provider-Backups. Details und nicht versendete Supportanfrage stehen in `RECHTLICHER-STATUS.md`.
+
+
+## 18. Tatsächliche Webspace-Verzeichnisse
+
+Der Betreiber hat folgende Pfade angelegt: Hauptseite `/if3t`, Apps `/if3t/sonnenstand-app` und `/if3t/sektoren-app`, absolut unter `/kunden/homepages/26/d125682115/htdocs`. Diese konkrete Konfiguration ersetzt die frühere Empfehlung nebeneinanderliegender Verzeichnisse. Hauptdomain-Rewrite-Regeln werden entsprechend auf Hauptdomain-Hosts beschränkt. Die Domainzuordnung und das Verhalten von Apache/IONOS sind nach Upload live zu prüfen. Die Anleitung steht in `README.md`.
