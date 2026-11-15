@@ -4,7 +4,7 @@ Statische persönliche Website und App-Seiten. Kein Build und keine Abhängigkei
 
 ## Status
 
-Erste lokale Version. **Noch nicht für den öffentlichen Upload freigegeben:** Impressum und Datenschutztexte sind sichtbare Arbeitsentwürfe. Offene Fakten stehen im [Briefing](WEBSITE-BRIEFING.md). Keine App-Store- oder TestFlight-Verfügbarkeit zugesichert.
+Erste lokale Version. **Noch nicht für den öffentlichen Upload freigegeben:** Impressum und Datenschutztexte sind sichtbare Arbeitsentwürfe. Offene Fakten stehen im [Briefing](WEBSITE-BRIEFING.md) und im [rechtlichen Status](RECHTLICHER-STATUS.md). Keine App-Store- oder TestFlight-Verfügbarkeit zugesichert.
 
 ## Lokale Vorschau
 

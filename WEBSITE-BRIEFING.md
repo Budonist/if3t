@@ -309,3 +309,10 @@ Beschreibung: „Mark-Alexander Kaldenbach: Performance- und Growth-Marketing so
 4. Veröffentlichung als gesonderten Schritt durchführen und Live-Abnahme abschließen.
 
 Die Website kann technisch entwickelt werden, bevor alle offenen Angaben vorliegen. Eine öffentliche Freigabe der rechtlichen Texte setzt deren Klärung voraus.
+
+
+## 15. Aktualisierung nach Betreiberantworten
+
+Privater Betrieb und die oben angegebene Anschrift sowie Kontaktadresse sind bestätigt. Beide Apps derzeit in TestFlight; App Store geplant. IONOS-Vertrags- und Aufbewahrungsangaben bleiben offen. Für die Hymnen fehlen Herkunftsnachweise; die Behauptung gemeinfreier Aufnahmen ist nicht belegt. Siehe `RECHTLICHER-STATUS.md`.
+
+Die ursprüngliche Vorgabe „keine Bilder“ wird auf Betreiberwunsch ersetzt: visuellere Projektkarten und App-Seiten mit lokal eingebundenen Original-App-Icons. Echte Screenshots können später ergänzt werden. Technische Diagramme nicht als App-Oberflächen darstellen. Datenschutztexte bleiben bis zur Klärung der aufgelisteten Tatsachen Arbeitsentwürfe.
